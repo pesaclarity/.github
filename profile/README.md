@@ -18,7 +18,7 @@ Everything is open source, so anyone can check that money data never leaves the 
 
 | Repo | What | Licence |
 | --- | --- | --- |
-| [pesaclarity-app](https://github.com/pesaclarity/pesaclarity-app) | The Flutter app (mfuko) | AGPL-3.0 |
+| [pesaclarity-app](https://github.com/pesaclarity/pesaclarity-app) | The Flutter app | AGPL-3.0 |
 | [ujumbe-parsers](https://github.com/pesaclarity/ujumbe-parsers) | SMS parser packs and engine (ujumbe) | Apache-2.0 |
 | [pesaclarity-backend](https://github.com/pesaclarity/pesaclarity-backend) | Sign-in, encrypted backup vault, federated learning (ngome) | AGPL-3.0 |
 | [pesaclarity-ml](https://github.com/pesaclarity/pesaclarity-ml) | On-device categoriser and privacy audits (akili) | AGPL-3.0 |
