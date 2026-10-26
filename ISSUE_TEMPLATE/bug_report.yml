@@ -1,0 +1,29 @@
+name: Bug report
+description: Something works differently from what you expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Never paste real SMS, statements, phone numbers or account numbers. Replace them with made-up values.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open Plan\n2. Tap ..."
+  - type: input
+    id: version
+    attributes:
+      label: App version and phone model
+      placeholder: 0.1.0, Tecno Spark 10, Android 13
