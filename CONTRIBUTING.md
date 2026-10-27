@@ -15,13 +15,13 @@ Thanks for helping. This guide applies to every repository in the organisation; 
 
 ## Pull requests
 
-1. Fork the repo and branch from `main`.
+1. Fork the repo and branch from `dev` in the app, server and parser repos (`main` elsewhere).
 2. Keep each pull request to one change. Small is easier to review.
 3. Add or update tests. CI must pass.
-4. Write commit messages in the imperative ("Add KCB paybill rule"), with a short body when the reason isn't obvious.
+4. Title the pull request in [Conventional Commits](https://www.conventionalcommits.org) form: `feat: add KCB paybill rule`, `fix: …`, `feat!: …` for a breaking change, or `docs`, `test`, `ci`, `chore`, `refactor`, `build`, `perf`, `style`, `revert`. The title becomes the squashed commit and sets the next version and changelog. Write other commit messages in the imperative, with a short body when the reason isn't obvious.
 5. Fill in the pull request template. If the change alters the spec, how something is set up or deployed, or makes a decision that is expensive to reverse, open a matching pull request in [docs](https://github.com/pesaclarity/docs) (the spec, or a record in `decisions/`), so the docs never fall behind the code.
 
-`main` is protected: changes land through reviewed pull requests with passing CI, and force-pushes are off.
+`main` is protected: changes land through reviewed pull requests with passing CI, and force-pushes are off. In `pesaclarity-app`, `pesaclarity-backend` and `ujumbe-parsers`, `main` is what users get: pull requests go to `dev`, and `dev` reaches `main` only after CI and QA approve, after which release-please tags the release ([0008](https://github.com/pesaclarity/docs/blob/main/decisions/0008-dev-branch-and-release-please.md)).
 
 ## Code style
 
