@@ -19,7 +19,7 @@ Thanks for helping. This guide applies to every repository in the organisation; 
 2. Keep each pull request to one change. Small is easier to review.
 3. Add or update tests. CI must pass.
 4. Write commit messages in the imperative ("Add KCB paybill rule"), with a short body when the reason isn't obvious.
-5. Fill in the pull request template. If the change alters the spec, open a matching pull request in [docs](https://github.com/pesaclarity/docs).
+5. Fill in the pull request template. If the change alters the spec, how something is set up or deployed, or makes a decision that is expensive to reverse, open a matching pull request in [docs](https://github.com/pesaclarity/docs) (the spec, or a record in `decisions/`), so the docs never fall behind the code.
 
 `main` is protected: changes land through reviewed pull requests with passing CI, and force-pushes are off.
 
