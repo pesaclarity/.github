@@ -9,4 +9,5 @@
 - [ ] Tests added or updated, and CI passes
 - [ ] No real SMS, statements, phone numbers or personal data
 - [ ] No secrets or keys
-- [ ] Spec or docs updated if behaviour changed
+- [ ] This repo's docs updated if behaviour or setup changed
+- [ ] [pesaclarity/docs](https://github.com/pesaclarity/docs) updated in a linked pull request if this changes the spec or makes a decision worth a record
