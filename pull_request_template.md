@@ -6,6 +6,8 @@
 
 ## Checklist
 
+- [ ] Title follows Conventional Commits (`feat: …`, `fix: …`, `feat!: …` for a breaking change)
+- [ ] Targets `dev` (app, server and parsers)
 - [ ] Tests added or updated, and CI passes
 - [ ] No real SMS, statements, phone numbers or personal data
 - [ ] No secrets or keys
