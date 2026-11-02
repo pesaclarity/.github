@@ -6,6 +6,15 @@ Pesa Clarity is a free, ad-free Android app, with an iPhone version in the works
 
 Everything is open source, so anyone can check that money data never leaves the phone.
 
+## Download
+
+Test builds for Android are on [the app's Releases](https://github.com/pesaclarity/pesaclarity-app/releases), refreshed from every change to `dev`:
+
+- [Android](https://github.com/pesaclarity/pesaclarity-app/releases/download/test-build/pesaclarity-play.apk) (`pesaclarity-play.apk`), with Google sign-in.
+- [F-Droid build](https://github.com/pesaclarity/pesaclarity-app/releases/download/test-build/pesaclarity-foss.apk) (`pesaclarity-foss.apk`), with no Google services.
+
+Open the file on your phone and allow installs when asked. Website: [pesaclarity.github.io/pesaclarity-web](https://pesaclarity.github.io/pesaclarity-web/).
+
 ## Principles
 
 1. **Free forever, no ads.**
@@ -29,4 +38,4 @@ Everything is open source, so anyone can check that money data never leaves the 
 
 The easiest first contribution is a parser pack for a bank, SACCO or wallet you use: see [ujumbe-parsers](https://github.com/pesaclarity/ujumbe-parsers). Start with the [contributing guide](https://github.com/pesaclarity/.github/blob/main/CONTRIBUTING.md).
 
-Status: pre-alpha. Not yet on the Play Store.
+Status: pre-alpha. Test builds are on Releases; not yet on the Play Store or F-Droid.
