@@ -13,7 +13,7 @@ Test builds for Android are on [the app's Releases](https://github.com/pesaclari
 - [Android](https://github.com/pesaclarity/pesaclarity-app/releases/download/test-build/pesaclarity-play.apk) (`pesaclarity-play.apk`), with Google sign-in.
 - [F-Droid build](https://github.com/pesaclarity/pesaclarity-app/releases/download/test-build/pesaclarity-foss.apk) (`pesaclarity-foss.apk`), with no Google services.
 
-Open the file on your phone and allow installs when asked. Website: [pesaclarity.github.io/pesaclarity-web](https://pesaclarity.github.io/pesaclarity-web/).
+Open the file on your phone and allow installs when asked. If it helps you, [star the app](https://github.com/pesaclarity/pesaclarity-app) so others find it. Website: [pesaclarity.github.io/pesaclarity-web](https://pesaclarity.github.io/pesaclarity-web/).
 
 ## Principles
 
