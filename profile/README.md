@@ -36,6 +36,8 @@ Open the file on your phone and allow installs when asked. If it helps you, [sta
 
 ## Get involved
 
-The easiest first contribution is a parser pack for a bank, SACCO or wallet you use: see [ujumbe-parsers](https://github.com/pesaclarity/ujumbe-parsers). Start with the [contributing guide](https://github.com/pesaclarity/.github/blob/main/CONTRIBUTING.md).
+- **Star [pesaclarity-app](https://github.com/pesaclarity/pesaclarity-app).** It is the quickest way to help: stars show people the project is alive and help them find it.
+- **Add your bank, Sacco or wallet.** A small YAML pack with synthetic sample messages in [ujumbe-parsers](https://github.com/pesaclarity/ujumbe-parsers); no Flutter needed.
+- **Build with us.** Flutter, Python, machine learning, design, copy and Swahili are all welcome. Start with [good first issues](https://github.com/search?q=org%3Apesaclarity+label%3A%22good+first+issue%22+is%3Aopen&type=issues), [help wanted](https://github.com/search?q=org%3Apesaclarity+label%3A%22help+wanted%22+is%3Aopen&type=issues) and the [contributing guide](https://github.com/pesaclarity/.github/blob/main/CONTRIBUTING.md).
 
 Status: pre-alpha. Test builds are on Releases; not yet on the Play Store or F-Droid.
