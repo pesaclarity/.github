@@ -2,7 +2,7 @@
 
 Your money, made clear, without giving your data away.
 
-Pesa Clarity is a free, ad-free Android app, with an iPhone version in the works, that turns M-Pesa and bank messages into a clear daily plan: what you can spend today, what is due, where money leaks, and when you will be debt-free. All analysis runs on the phone. The server only signs you in, holds backups it cannot read, and combines anonymous model updates.
+Pesa Clarity is a free, ad-free app for Android and iPhone that turns M-Pesa and bank messages into a clear daily plan: what you can spend today, what is due, where money leaks, and when you will be debt-free. All analysis runs on the phone. The server only signs you in, holds backups it cannot read, and combines anonymous model updates.
 
 Everything is open source, so anyone can check that money data never leaves the phone.
 
@@ -13,7 +13,19 @@ Test builds for Android are on [the app's Releases](https://github.com/pesaclari
 - [Android](https://github.com/pesaclarity/pesaclarity-app/releases/download/test-build/pesaclarity-play.apk) (`pesaclarity-play.apk`), with Google sign-in.
 - [F-Droid build](https://github.com/pesaclarity/pesaclarity-app/releases/download/test-build/pesaclarity-foss.apk) (`pesaclarity-foss.apk`), with no Google services.
 
-Open the file on your phone and allow installs when asked. If it helps you, [star the app](https://github.com/pesaclarity/pesaclarity-app) so others find it. Website: [pesaclarity.github.io/pesaclarity-web](https://pesaclarity.github.io/pesaclarity-web/).
+Open the file on your phone and allow installs when asked. If it helps you, [star the app](https://github.com/pesaclarity/pesaclarity-app) so others find it. Website: [pesaclarity.github.io](https://pesaclarity.github.io).
+
+## What it does
+
+- **A daily plan.** Safe to spend today, bills due, money leaks, goals and a debt-free date.
+- **Personal and business.** Keep separate spaces for you, a business, a household, a chama, rentals or a farm. Data never crosses between them; you can rename, clear, move transactions between, or delete any space, with 30 days to change your mind if you want it.
+- **Your currencies.** A base currency of your choice, with foreign amounts shown both ways.
+- **Export and print.** Your data as CSV in two taps; a business can print receipts on a Bluetooth printer.
+- **Encrypted backups.** On the phone, to Google Drive, or to our vault, which cannot read them.
+
+## Free, paid for by gifts
+
+Every feature is free and stays free. If Pesa Clarity helps you, you can give on the [Sponsor page](https://pesaclarity.github.io/sponsor/) or from Support in the F-Droid build. Giving never unlocks anything.
 
 ## Principles
 
