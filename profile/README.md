@@ -8,16 +8,19 @@ Everything is open source, so anyone can check that money data never leaves the 
 
 ## Download
 
-Test builds for Android are on [the app's Releases](https://github.com/pesaclarity/pesaclarity-app/releases), refreshed from every change to `dev`:
+Test builds are on [the app's Releases](https://github.com/pesaclarity/pesaclarity-app/releases), refreshed each evening when `dev` has changed:
 
 - [Android](https://github.com/pesaclarity/pesaclarity-app/releases/download/test-build/pesaclarity-play.apk) (`pesaclarity-play.apk`), with Google sign-in.
 - [F-Droid build](https://github.com/pesaclarity/pesaclarity-app/releases/download/test-build/pesaclarity-foss.apk) (`pesaclarity-foss.apk`), with no Google services.
+- [iPhone](https://github.com/pesaclarity/pesaclarity-app/releases/download/test-build/pesaclarity-ios-unsigned.ipa) (`pesaclarity-ios-unsigned.ipa`), to sideload; the [install page](https://pesaclarity.github.io/install/) shows how.
 
-Open the file on your phone and allow installs when asked. If it helps you, [star the app](https://github.com/pesaclarity/pesaclarity-app) so others find it. Website: [pesaclarity.github.io](https://pesaclarity.github.io).
+On Android, open the file on your phone and allow installs when asked. If it helps you, [star the app](https://github.com/pesaclarity/pesaclarity-app) so others find it. Website: [pesaclarity.github.io](https://pesaclarity.github.io).
 
 ## What it does
 
 - **A daily plan.** Safe to spend today, bills due, money leaks, goals and a debt-free date.
+- **Balances that add up.** A double-entry journal on the phone keeps every account's balance, with Fuliza owed taken off M-Pesa.
+- **Ask.** Ask about your money in your own words and get a short, plain answer, worked out on the phone. Nothing you ask is sent anywhere.
 - **Personal and business.** Keep separate spaces for you, a business, a household, a chama, rentals or a farm. Data never crosses between them; you can rename, clear, move transactions between, or delete any space, with 30 days to change your mind if you want it.
 - **Your currencies.** A base currency of your choice, with foreign amounts shown both ways.
 - **Export and print.** Your data as CSV in two taps; a business can print receipts on a Bluetooth printer.
@@ -25,7 +28,7 @@ Open the file on your phone and allow installs when asked. If it helps you, [sta
 
 ## Free, paid for by gifts
 
-Every feature is free and stays free. If Pesa Clarity helps you, you can give on the [Sponsor page](https://pesaclarity.github.io/sponsor/) or from Support in the F-Droid build. Giving never unlocks anything.
+Every feature is free and stays free. If Pesa Clarity helps you, you can give through CitaPay, on the [Sponsor page](https://pesaclarity.github.io/sponsor/) or from Support in the F-Droid build. Giving never unlocks anything.
 
 ## Principles
 
@@ -42,7 +45,7 @@ Every feature is free and stays free. If Pesa Clarity helps you, you can give on
 | [pesaclarity-app](https://github.com/pesaclarity/pesaclarity-app) | The Flutter app for Android and iPhone | AGPL-3.0 |
 | [ujumbe-parsers](https://github.com/pesaclarity/ujumbe-parsers) | SMS parser packs and engine (ujumbe) | Apache-2.0 |
 | [pesaclarity-backend](https://github.com/pesaclarity/pesaclarity-backend) | Sign-in, encrypted backup vault, federated learning (ngome) | AGPL-3.0 |
-| [pesaclarity-ml](https://github.com/pesaclarity/pesaclarity-ml) | On-device categoriser, message reader and privacy audits (akili) | AGPL-3.0 |
+| [pesaclarity-ml](https://github.com/pesaclarity/pesaclarity-ml) | On-device categoriser, message reader, Ask models and privacy audits (akili) | AGPL-3.0 |
 | [pesaclarity-web](https://github.com/pesaclarity/pesaclarity-web) | Website (dirisha) | AGPL-3.0, text CC BY 4.0 |
 | [docs](https://github.com/pesaclarity/docs) | Spec, brand, decisions | CC BY 4.0 |
 
