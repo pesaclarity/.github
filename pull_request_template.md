@@ -8,7 +8,7 @@
 
 - [ ] Title follows Conventional Commits (`feat: …`, `fix: …`, `feat!: …` for a breaking change)
 - [ ] Targets `dev` (app, server and parsers)
-- [ ] Tests added or updated, and CI passes
+- [ ] Tests added or updated, and `tool/check` passes locally
 - [ ] No real SMS, statements, phone numbers or personal data
 - [ ] No secrets or keys
 - [ ] This repo's docs updated if behaviour or setup changed
