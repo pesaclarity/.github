@@ -1,0 +1,53 @@
+name: Download stats
+
+# Once a day, records how many times each pesaclarity-app release file has
+# been downloaded (GitHub's own counters, public data) and appends it to
+# stats/downloads.csv on the `stats` branch. Nothing is collected from
+# phones or website visitors.
+on:
+  schedule:
+    - cron: "17 21 * * *" # 00:17 in Nairobi
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: download-stats
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          path: main
+
+      - name: Check out the stats branch
+        run: |
+          if git ls-remote --exit-code --heads "https://github.com/${GITHUB_REPOSITORY}" stats >/dev/null; then
+            git clone --quiet --branch stats --depth 1 \
+              "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}" stats
+          else
+            mkdir stats && cd stats && git init --quiet -b stats
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Take the snapshot
+        run: python3 main/tool/download_stats.py pesaclarity/pesaclarity-app stats/stats/downloads.csv
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Save it
+        working-directory: stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats/downloads.csv
+          if git diff --cached --quiet; then echo "No change."; exit 0; fi
+          git commit --quiet -m "chore: download stats for $(date -u +%F)"
+          git push --quiet origin stats
