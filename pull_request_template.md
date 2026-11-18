@@ -6,8 +6,8 @@
 
 ## Checklist
 
-- [ ] Title follows Conventional Commits (`feat: …`, `fix: …`, `feat!: …` for a breaking change)
-- [ ] Targets `dev` (app, server and parsers)
+- [ ] Every commit follows Conventional Commits (`feat: …`, `fix: …`, `feat!: …` for a breaking change; hidden types such as `refactor` or `test` for changes users don't see)
+- [ ] Targets `dev` (app, server, ML and parsers)
 - [ ] Tests added or updated, and `tool/check` passes locally
 - [ ] No real SMS, statements, phone numbers or personal data
 - [ ] No secrets or keys
