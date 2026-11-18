@@ -46,7 +46,8 @@ Every feature is free and stays free. If Pesa Clarity helps you, you can give th
 | [ujumbe-parsers](https://github.com/pesaclarity/ujumbe-parsers) | SMS parser packs and engine (ujumbe) | Apache-2.0 |
 | [pesaclarity-backend](https://github.com/pesaclarity/pesaclarity-backend) | Sign-in, encrypted backup vault, federated learning (ngome) | AGPL-3.0 |
 | [pesaclarity-ml](https://github.com/pesaclarity/pesaclarity-ml) | On-device categoriser, message reader, Ask models and privacy audits (akili) | AGPL-3.0 |
-| [pesaclarity-web](https://github.com/pesaclarity/pesaclarity-web) | Website (dirisha) | AGPL-3.0, text CC BY 4.0 |
+| [rayo](https://github.com/pesaclarity/rayo) | On-device inference engine in pure C89, with no Google libraries: runs the app's models and small language models on phones | AGPL-3.0 |
+| [pesaclarity.github.io](https://github.com/pesaclarity/pesaclarity.github.io) | Website (dirisha) | AGPL-3.0, text CC BY 4.0 |
 | [docs](https://github.com/pesaclarity/docs) | Spec, brand, decisions | CC BY 4.0 |
 
 ## Get involved
